@@ -1,4 +1,6 @@
 package pkg_Liskov;
+//LSP-Done by swalha
+//this code follows lsp principles
 
 // Base class
 class Number1 {
@@ -19,6 +21,8 @@ class NegativeNumber1 extends Number1 {
         super(value);
         if (value >= 0) {
             throw new IllegalArgumentException("Value must be negative");
+            //Does not change the behaviour only ensures value is negative.
+
         }
     }
 

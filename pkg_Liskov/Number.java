@@ -1,5 +1,6 @@
 package pkg_Liskov;
-
+//LSP-Done by swalha
+//the code does not follow LSP
 class Number {
     protected int value;
 
